@@ -194,7 +194,7 @@
   .subscribe-section-one .subscribe-form-one form button,.subscribe-section-three .subscribe-form form button {width: 100px; font-size: 16px;}
   .vcamp-footer-one .subscribe-area .subscribe-form form input,.vcamp-footer-one .subscribe-area-two .subscribe-form form input,
   .subscribe-section-one .subscribe-form-one form input,.subscribe-section-three .subscribe-form form input {padding: 0 105px 0 15px; font-size: 16px;}
-  .vcamp-footer-one.dark-bg {padding-top: 180px;}
+  .vcamp-footer-one.dark-bg {padding-top: 60px;}
   .theme-main-menu.theme-menu-two {padding-left: 12px; padding-right: 12px;}
   .card-style-three .title {font-size: 22px; padding-bottom: 20px;}
   .feedback-section-three .inner-content {padding: 100px 0 100px 12px;}
@@ -688,8 +688,9 @@
   .theme-menu-two .right-widget .contact-btn {margin-right: 25px;}
   .theme-menu-two .navbar-toggler {right: 12px;}
   .theme-menu-two.fixed .navbar-toggler {right: 0;}
-  .hero-banner-two .text-wrapper {max-width: 720px; position: static; padding-bottom: 20px;}
+  .hero-banner-two .text-wrapper {max-width: 720px; position: static; padding-bottom: 8px;}
   .hero-banner-two {padding: 170px 0 0; height: auto;}
+  .hero-banner-two .hero-screen-grid {row-gap: 24px;}
   .vcamp-text-block-one .left-img-meta {position: static; max-width: 720px; padding: 0 12px; margin: 40px auto 0; transform: none;}
   .feedback-section-three .text-wrapper {max-width: 720px; padding: 0 12px; float: none; margin: 0 auto;}
   .feedback-section-three .slider-wrapper {max-width: 100%; margin: 50px 0 0; padding: 0; float: none;}
@@ -705,6 +706,8 @@
   .feedback-section-eight .feedback-wrapper .name span {font-size: 16px;}
   .vcamp-footer-one .bottom-footer .footer-nav a, .vcamp-footer-one .bottom-footer .social-icon a,
   .vcamp-footer-two .bottom-footer .footer-nav a,.vcamp-footer-two .bottom-footer .social-icon a {margin: 0 8px;}
+  .vcamp-footer-one.dark-bg {padding-top: 95px;}
+  .vcamp-footer-one .top-footer {margin-top: 35px !important;}
   .vcamp-footer-one.dark-bg .bottom-footer {padding-top: 25px; border-top: 1px solid rgba(255, 255, 255, 0.1); margin-top: 15px;}
   .partner-section-two .partent-logos .logo {height: 125px;}
   .hero-banner-three .sub-heading {font-size: 24px;}
@@ -885,10 +888,42 @@
 /*Grid sm Start*/
 @media (max-width: 767px) {
   .feedback-section-one .screen-one,.page-scroll-element-two .scroll-bar,.full-height-layout .shape-four {display: none;}
+  .hero-banner-two .hero-screen-grid {align-items: flex-start !important; row-gap: 18px;}
+  .hero-banner-two .hero-screen-grid .mb-35 {margin-bottom: 18px !important;}
+  .hero-banner-two .button-group {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .hero-banner-two .button-group li {margin: 0 !important;}
+  .hero-banner-two .button-group .demo-button {margin-right: 0; line-height: 48px; padding: 0 20px; font-size: 16px; width: 100%; text-align: center;}
+  .hero-banner-two .button-group .callback-button {font-size: 15px; width: 100%; justify-content: center;}
   .hero-banner-one .illustration-container {position: static; margin: 60px auto 0; max-width: 100%;}
   .feedback-section-one .slider-arrow {position: static; justify-content: center;}
   .feedback-section-two .slider-arrows li {margin: 30px 5px 0; width: 40px; height: 40px; line-height: 40px;}
-  .vcamp-footer-one .bg-wrapper {padding: 50px 0;}
+  .vcamp-footer-one .bg-wrapper {padding: 30px 0;}
+  .vcamp-footer-one .top-footer {margin-top: 0px !important;}
+  .vcamp-footer-one .footer-links-scroll-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .vcamp-footer-one .footer-links-scroll-wrap::-webkit-scrollbar {display: none;}
+  .vcamp-footer-one .footer-links-scroll-row {
+    flex-wrap: nowrap;
+    width: max-content;
+    margin-right: 0;
+    margin-left: 0;
+    row-gap: 0;
+  }
+  .vcamp-footer-one .footer-links-scroll-item {
+    flex: 0 0 220px;
+    max-width: 220px;
+    padding-right: 18px;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
   .vcamp-footer-one .subscribe-area,.vcamp-footer-one .subscribe-area .subscribe-form p,
   .vcamp-footer-one .subscribe-area-two,.vcamp-footer-one .subscribe-area-two .subscribe-form p,
   .subscribe-section-three .subscribe-area,.subscribe-section-three .subscribe-form p {text-align: center;}
@@ -901,7 +936,7 @@
   .address-block-two .text-meta {padding-left: 25px;}
   .address-block-two .icon {width: 45px;}
   .address-block-two {padding: 25px;}
-  .vcamp-footer-one.dark-bg {padding-top: 150px;}
+  .vcamp-footer-one.dark-bg {padding-top: 70px;}
   .offcanvas.sidebar-nav {padding: 20px; width: 380px;}
   .sidebar-nav .sidebar-nav-item {padding: 30px 0 40px;}
   .sidebar-nav .address-block .title {font-size: 18px;}
