@@ -967,6 +967,8 @@
   .vcamp-footer-one .top-footer .row > div:nth-child(3) .footer-nav-link li:not(:nth-child(3)) {display: none;}
   .vcamp-footer-one .top-footer .footer-nav-link {margin-bottom: 0;}
   .vcamp-footer-one .bottom-footer .row > div:nth-child(1) {display: none;}
+  .vcamp-footer-one .bottom-footer .row > div:nth-child(2) {order: 3;}
+  .vcamp-footer-one .bottom-footer .row > div:nth-child(3) {order: 2;}
   .feedback_slider_four .image-container {margin-top: 25px;}
   .feedback_slider_four .image-container img {margin: 0 auto;}
   .feedback_slider_four .slick-dots {position: static; margin-top: 20px; text-align: center; width: 100%;}
