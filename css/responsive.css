@@ -230,8 +230,8 @@
   .vcamp-text-block-four .text-wrapper .more-button {width: 40px; height: 40px; line-height: 40px; font-size: 18px;}
   .case-study-one {padding: 120px 0 90px;}
   .vcamp-text-block-five .text-wrapper p {padding-top: 25px;}
-  .accordion-style-one .accordion-button {font-size: 22px; padding: 20px 0;}
-  .accordion-style-one .accordion-body p {font-size: 18px;}
+  .accordion-style-one .accordion-button {font-size: 22px; padding: 20px 10px;}
+  .accordion-style-one .accordion-body p {font-size: 18px; padding: 20px 10px; text-align: left;}
   .feedback_slider_six .feedback-wrapper .icon {width: 50px; height: 50px; padding: 12px; margin-bottom: 40px;}
   .feedback_slider_six .feedback-wrapper blockquote {font-size: 22px; padding-bottom: 30px;}
   .counter-block-two .main-count {font-size: 40px;}
@@ -676,7 +676,7 @@
   .hero-banner-one form input,.hero-banner-five form input {padding: 0 150px 0 15px;}
   .vcamp-feature-section-one .bg-wrapper {padding: 80px 0 70px;}
   .card-style-one {margin: 60px 0 0;}
-  .vcamp-text-block-one .img-container {padding: 50px 0 40px 0;}
+  .vcamp-text-block-one .img-container {padding: 15px 0 10px 0;}
   .card-style-two {border: none; padding-top: 0;}
   .card-style-two .title {font-size: 22px;}
   .testimonial-block-one {padding: 40px 25px;}
@@ -688,6 +688,15 @@
   .theme-menu-two .right-widget .contact-btn {margin-right: 25px;}
   .theme-menu-two .navbar-toggler {right: 12px;}
   .theme-menu-two.fixed .navbar-toggler {right: 0;}
+  .theme-main-menu .navbar-nav .mobile-menu-demo-item {padding-top: 12px;}
+  .theme-main-menu .navbar-nav .mobile-menu-demo-item .contact-btn {display: inline-flex;}
+  .theme-main-menu .navbar-nav .mobile-menu-demo-item .contact-btn.demo-cta {
+    width: 100%;
+    max-width: 220px;
+    justify-content: center;
+    line-height: 42px;
+    margin: 0 auto;
+  }
   .hero-banner-two .text-wrapper {max-width: 720px; position: static; padding-bottom: 8px;}
   .hero-banner-two {padding: 170px 0 0; height: auto;}
   .hero-banner-two .hero-screen-grid {row-gap: 24px;}
@@ -706,7 +715,7 @@
   .feedback-section-eight .feedback-wrapper .name span {font-size: 16px;}
   .vcamp-footer-one .bottom-footer .footer-nav a, .vcamp-footer-one .bottom-footer .social-icon a,
   .vcamp-footer-two .bottom-footer .footer-nav a,.vcamp-footer-two .bottom-footer .social-icon a {margin: 0 8px;}
-  .vcamp-footer-one.dark-bg {padding-top: 95px;}
+  .vcamp-footer-one.dark-bg {padding-top: 35px;}
   .vcamp-footer-one .top-footer {margin-top: 35px !important;}
   .vcamp-footer-one.dark-bg .bottom-footer {padding-top: 25px; border-top: 1px solid rgba(255, 255, 255, 0.1); margin-top: 15px;}
   .partner-section-two .partent-logos .logo {height: 125px;}
@@ -908,7 +917,7 @@
     object-position: top center;
   }
   .hero-banner-two .hero-screen-grid .mb-35 {margin-bottom: 0 !important;}
-  .hero-banner-two .button-group {
+  .hero-banner-two .button-group:not(.d-none) {
     display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
@@ -927,6 +936,9 @@
   .vcamp-text-block-one .text-wrapper .theme-btn-one {margin-left: auto; margin-right: auto;}
   .vcamp-text-block-one .left-img-meta,
   .vcamp-text-block-one .shape-two {display: none !important;}
+  .vcamp-text-block-one .quote-wrapper {display: none !important;}
+  .vcamp-text-block-five .accordion-style-one {padding-left: 12px; padding-right: 12px;}
+  .vcamp-text-block-five .text-wrapper .text-lg {text-align: center;}
   .card-style-four .icon {justify-content: center !important; align-items: center !important;}
   .card-style-four .icon img {margin: 0 auto;}
   .hero-banner-one .illustration-container {position: static; margin: 60px auto 0; max-width: 100%;}
@@ -977,7 +989,7 @@
   .address-block-two .text-meta {padding-left: 25px;}
   .address-block-two .icon {width: 45px;}
   .address-block-two {padding: 25px;}
-  .vcamp-footer-one.dark-bg {padding-top: 70px;}
+  .vcamp-footer-one.dark-bg {padding-top: 55px;}
   .offcanvas.sidebar-nav {padding: 20px; width: 380px;}
   .sidebar-nav .sidebar-nav-item {padding: 30px 0 40px;}
   .sidebar-nav .address-block .title {font-size: 18px;}
@@ -989,6 +1001,14 @@
   .feedback_slider_five .block-wrapper p {font-size: 18px; padding-bottom: 15px;}
   .vcamp-footer-one.dark-bg.image-bg {padding-top: 270px;}
   .contact-section-two .form-style-one .input-group-meta label {display: block; text-align: left;}
+  .vcamp-text-block-one .img-container {position: relative;}
+  .vcamp-text-block-one .img-container .mobile-video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
   .hero_slider_two .slider-inner {width: auto; padding: 60px 20px 40px 20px; right: 0; left: 0; top: 0;}
   .vcamp-text-block-three .text-wrapper p {padding: 15px 0 25px;}
   .vcamp-text-block-three .text-wrapper {padding-left: 0;}

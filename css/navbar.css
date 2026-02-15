@@ -304,7 +304,7 @@
 
 /*----- For Mobile ----*/
 @media screen and (max-width: 991px) {
-	.navbar-collapse .logo {margin-bottom: 8vh;}
+	.navbar-collapse .logo {margin-top: 2vh; margin-bottom: 4vh;}
   .navbar-collapse {
     position: fixed;
     top: 0;

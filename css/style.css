@@ -1168,6 +1168,30 @@ body .theme-btn-eighteen:hover:before {background: #FF7961;}
   margin-right: 22px;
 }
 .theme-menu-two .right-widget .contact-btn:hover {background: var(--red-one); color: #fff; border-color: var(--red-one);}
+.theme-menu-two .contact-btn.demo-cta {
+  width: auto;
+  min-width: 160px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid #111;
+  background: linear-gradient(135deg, #111 0%, #2a2a2a 100%);
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+.theme-menu-two .contact-btn.demo-cta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.theme-menu-two .contact-btn.demo-cta i {font-size: 15px;}
+.theme-menu-two .contact-btn.demo-cta:hover {
+  background: linear-gradient(135deg, #ff5332 0%, #ff7a3c 100%);
+  border-color: #ff5332;
+  color: #fff;
+}
 .theme-menu-two .right-widget .menu-search-btn:hover {color: var(--red-one);}
 .theme-search-form {
   background: rgba(23,22,26, 0.96);
@@ -3287,7 +3311,7 @@ body .theme-btn-eighteen:hover:before {background: #FF7961;}
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .vcamp-text-block-five .text-wrapper p {
-  padding-top: 55px;
+  padding-top: 25px;
   margin-bottom: 0;
 }
 .accordion-style-one .accordion-item {
@@ -3297,16 +3321,16 @@ body .theme-btn-eighteen:hover:before {background: #FF7961;}
 .accordion-style-one .accordion-button {
   font-family: 'gorditamedium';
   font-size: 24px;
-  padding: 30px 0;
+  padding: 30px 15px;
   box-shadow: none;
   border-radius: 0;
   color: var(--heading);
   background: transparent;
   transition: all 0.3s ease-in-out;
 }
-.accordion-style-one .accordion-button:not(.collapsed) {padding-bottom: 15px;}
+.accordion-style-one .accordion-button:not(.collapsed) {padding: 30px 15px;}
 .accordion-style-one .accordion-body {padding: 0 25px 1px 0;}
-.accordion-style-one .accordion-body p {font-size: 20px;line-height: 1.8em;}
+.accordion-style-one .accordion-body p {font-size: 20px;line-height: 1.8em; padding: 15px 15px;}
 .accordion-style-one .accordion-button::after {
   content: '+';
   font-family: 'gorditaregular';
