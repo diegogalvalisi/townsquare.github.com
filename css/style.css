@@ -1684,6 +1684,14 @@ body .theme-btn-eighteen:hover:before {background: #FF7961;}
 }
 .vcamp-text-block-one .video-icon::after {animation-delay:3s;}
 .vcamp-text-block-one .meta-info-text {padding: 45px 0 50px;}
+.vcamp-text-block-one .img-container .video-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 0;
+  z-index: 2;
+}
 .vcamp-text-block-one .text-wrapper h6 {
   font-family: 'gorditamedium';
   font-size: 25px;
